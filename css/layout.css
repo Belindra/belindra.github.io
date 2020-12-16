@@ -1,0 +1,105 @@
+html {
+    font-size: 62.5%
+}
+body { /*valitsee koko elementin*/
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-color: #69013B;
+    color: #CA959F;
+    font-weight: bold;
+    border: solid #69013B 1px;
+    border-width: 0 1px 0 1px;
+    border-radius: 20px 20px 0 0;
+    padding: 1rem;
+}
+h1, h2, h3 {
+    font-weight: bold;
+    padding: 1rem;
+}
+h1 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+h2 {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.7rem;
+}
+#logo img { 
+    max-width: 100%;
+}
+#logo { /*id #*/
+    float: right;
+    width: 10rem;
+    padding: 1rem;
+}
+p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.ops { /*luokka*/
+    border: solid #69013B 1px;
+}
+footer {
+    background-color: #69013B;
+    color: #CA959F;
+    border: solid #69013B 1px;
+    border-radius: 0 0 20px 20px;
+}
+.footer-p {
+    padding: 1rem;
+}
+.sisennys-4rem {
+    padding-left: 2rem;
+}
+.sisennys-2rem {
+    padding-left: 2rem;
+}
+.sisennys-6rem {
+    padding-left: 6rem;
+}
+a { /*linkki*/
+    text-decoration: none;
+    color: #69013B;
+    font-style: italic;
+}
+.footer-p a { /*footerin linkki*/
+    text-decoration: none;
+    color: #CA959F;
+    font-style: italic;
+}
+
+a:hover { /*linkki hover*/
+    text-decoration: underline;
+    background-color: #69013B;
+    color: #CA959F;
+    padding: 10px;
+}
+.footer-p a:hover {
+    text-decoration: underline;
+    color: #69013B;
+    background-color: #CA959F;
+    padding: 10px;
+}
+.selected {
+    list-style: decimal;
+    font-size: 2rem;
+    color: #69013B;
+}
+.darker {
+    background-color: rgba(100, 100, 100, 0.2);
+    color: rgba(100, 100, 100, 0.2);
+}
+@media only screen and (max-width: 425px) {
+    body {
+        padding: 0;
+    }
+}
